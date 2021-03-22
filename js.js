@@ -14,7 +14,6 @@ module.exports = {
     },
   },
   rules: {
-    'arrow-parens': 'always',
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'warn',
     'jsx-a11y/anchor-is-valid': 'off',
@@ -37,6 +36,7 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
+        arrowParens: 'always',
         printWidth: 80,
         semi: true,
         singleQuote: true,
