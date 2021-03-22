@@ -4,6 +4,7 @@ module.exports = {
   extends: [
     'airbnb',
     'plugin:prettier/recommended',
+    'plugin:jest/recommended',
   ],
   plugins: ['react-hooks'],
   settings: {
@@ -14,6 +15,10 @@ module.exports = {
     },
   },
   rules: {
+    'camelcase': [1, {
+      properties: 'never',
+      ignoreDestructuring: true,
+    }],
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'warn',
     'jsx-a11y/anchor-is-valid': 'off',
