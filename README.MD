@@ -37,7 +37,7 @@ module.exports = {
 ### Installation
 
 ```
-yarn add @dancan/eslint-config eslint prettier --dev
+yarn add eslint-config-fireside eslint prettier --dev
 touch .eslintrc.js
 ```
 
