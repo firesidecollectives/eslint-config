@@ -19,7 +19,6 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-shadow': 2,
     '@typescript-eslint/no-use-before-define': 0,
-    'camelcase': [1, { properties: 'never', ignoreDestructuring: true }],
     'import/extensions': 0,
     'import/no-extraneous-dependencies': 1,
     'jsx-a11y/anchor-is-valid': 0,
