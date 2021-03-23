@@ -18,6 +18,7 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/camelcase': [1, { properties: 'never', ignoreDestructuring: true }],
+    '@typescript-eslint/no-shadow': 2,
     '@typescript-eslint/no-use-before-define': 0,
     'import/extensions': 0,
     'import/no-extraneous-dependencies': 1,
@@ -25,7 +26,7 @@ module.exports = {
     'max-len': 0,
     'no-console': 2,
     'no-nested-ternary': 1,
-    'no-shadow': 2,
+    'no-shadow': 0,
     'no-use-before-define': 0,
     'react-hooks/exhaustive-deps': 1,
     'react-hooks/rules-of-hooks': 2,
