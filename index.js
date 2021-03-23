@@ -42,7 +42,7 @@ module.exports = {
       2,
       {
         arrowParens: 'always',
-        printWidth: 80,
+        printWidth: 100,
         semi: true,
         singleQuote: true,
         trailingComma: 'es5',
